@@ -1,0 +1,38 @@
+:root{
+    --vermelho: #E50914;
+    --preto: #141414;
+} /* cria variáveis */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*o limite é a borda da caixa*/
+} /* esse conjunto de elementos faz um reset da página*/
+
+body {
+    background: var(--preto);
+    font-family: 'Poppins', sans-serif;
+}
+
+header .container{
+    display: flex; /* display flex joga tudo em linha*/
+    flex-direction: row; /*padrão de um display flex*/
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    margin-left: 5px;
+    color: var(--vermelho);
+    font-size: 40px;
+    font-weight: bold;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #AAA;
+}
+
+header nav a:hover{
+    color: #fff;
+} /* hover é um evento q faz com que a cor do elemento mude quando passa o mouse em cima */
