@@ -12,6 +12,7 @@
 body {
     background: var(--preto);
     font-family: 'Poppins', sans-serif;
+    color: white;
 }
 
 header .container{
@@ -36,3 +37,27 @@ header nav a {
 header nav a:hover{
     color: #fff;
 } /* hover é um evento q faz com que a cor do elemento mude quando passa o mouse em cima */
+
+
+/*filme principal*/
+.principal-book {
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('../img/lady-killers-fundo.jpg');
+
+    height: 400px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.principal-book .descricao{
+    margin-bottom: 40px;
+}
+
+.titulo{
+    font-size: 40px;
+}
+
