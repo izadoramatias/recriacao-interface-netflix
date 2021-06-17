@@ -25,8 +25,10 @@ header .container{
 header .logo{
     margin-left: 5px;
     color: var(--vermelho);
-    font-size: 40px;
+    font-size: 60px;
     font-weight: bold;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 3px; /*espaçamento entre as letras*/
 }
 
 header nav a {
@@ -44,7 +46,7 @@ header nav a:hover{
     font-size: 16px;
     background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('../img/lady-killers-fundo.jpg');
 
-    height: 400px;
+    height: 450px;
     background-size: cover;
 
     display: flex;
@@ -57,7 +59,51 @@ header nav a:hover{
     margin-bottom: 40px;
 }
 
-.titulo{
+.principal-book .titulo{
     font-size: 40px;
+    margin-top: 10%;
+    font-style: oblique;
+}
+
+.button {
+    background-color: rgba(0, 0, 0, .50);
+    border: none;
+    color: white;
+
+    padding: 15px 15px; /*primeiro valor representa em cima e embaixo, e o segundo direita a esquerda*/
+    margin-right: 15px;
+    font-size: 12px;
+
+    cursor: pointer;
+    transition: .4s ease all;
+}
+
+.button:hover{
+    background-color: white;
+    color: black;
+}
+
+.button i{
+    margin-right: 8px;
+}
+
+.principal-book .container{
+    margin-left: 10px;
+}
+
+.principal-book .container .descricao{
+    width: 70%;
+}
+
+.container nav{
+    margin-left: auto;
+    margin-right: auto;
+    word-spacing: 10px;
+}
+
+.box-livro{
+    height: 100%;
+    width: 100%;
+    display: block;
 }
 
