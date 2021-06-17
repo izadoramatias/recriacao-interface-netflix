@@ -1,0 +1,31 @@
+@media screen and (max-width: 700px){
+    header .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .button{
+        width: 300px;
+        margin-top: 5px;
+        align-items: center;
+
+    }
+
+    .principal-book{
+        height: 70%;
+    }
+
+    .principal-book .descricao{
+        font-size: 15px;
+        width: 80%;
+    }
+    header .logo{
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width: 1000px){
+    .descricao{
+        width: 50%;
+    }
+}
